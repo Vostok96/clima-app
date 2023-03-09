@@ -268,8 +268,8 @@ input::placeholder {
 /* Estilos para pantallas grandes, como computadoras */
 @media (min-width: 992px) {
   nav input {
-      width: 100%;
-      margin: auto;
+      width: 270%;
+      margin: -130%;
   }
   .value {
       font-size: 95px;
@@ -277,5 +277,11 @@ input::placeholder {
   .card {
       width: 38rem;
       height: 30rem;
+  }
+  .bx-search {
+    color: var(--lettericon-search);
+    position: absolute;
+    margin-left: -230px;
+    top: 37px;
   }
 }
