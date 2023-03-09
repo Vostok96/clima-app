@@ -83,6 +83,12 @@ const Weather = () => {
                 {/* <span><button className="activateDark" onClick={() => setIsDarkMode(!isDarkMode)}></button></span> */}
             </nav>    
 
+            
+
+
+
+
+
             <div className="card"> 
                 <h2 className="value">{isC ? `${isWeather.main?.temp.toFixed(0)}° ` : `${(isWeather.main?.temp*1.8 + 32).toFixed(0)}° `} <span><img src={`/iconos/${icons[isWeather.weather?.[0].main]}`} alt="" /> </span> 
                 </h2>

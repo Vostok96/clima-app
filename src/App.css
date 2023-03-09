@@ -95,6 +95,10 @@ input::placeholder {
   padding-left: 4rem;
 }
 
+
+
+
+
 .card{
   display: flex;
   flex-direction: column;
@@ -108,7 +112,8 @@ input::placeholder {
   margin: auto;
   margin-bottom: 4rem;
   justify-content: center;
-  background: var(--bg-card)
+  background: var(--bg-card);
+  z-index: 4
   
   
 }
