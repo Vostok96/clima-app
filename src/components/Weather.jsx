@@ -107,7 +107,10 @@ const Weather = () => {
                             NUBES 
                             <ul className="nubesList">
                                 <li>
-                                    {isWeather.clouds?.all} % de nubosidad en la zona
+                                    {isWeather.clouds?.all} % de nubosidad en la zona                           
+                                </li>
+                                <li>
+                                {isWeather.main?.humidity} % de humedad
                                 </li>
                             </ul>                                                     
                     </section>                   
@@ -118,7 +121,8 @@ const Weather = () => {
                                     {isWeather.main?.pressure} hPa
                                 </li>
                             </ul>                                      
-                    </section>                                      
+                    </section> 
+                                                         
                     <h2 className="pais">
                         {isWeather.name}, {isWeather.sys?.country}
                     </h2>

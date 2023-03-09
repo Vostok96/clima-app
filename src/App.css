@@ -171,6 +171,7 @@ input::placeholder {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
+  margin-top: -25px;
 }
 
 .switch2 {
